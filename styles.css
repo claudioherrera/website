@@ -1,0 +1,232 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    font: 300 14px/21px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.break-top {
+    margin-top: 5vh;
+}
+
+.break-top-right {
+    margin-top: 16vh;
+}
+
+.grid, .col-1-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.grid {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.col-1-2-left {
+    vertical-align: top;
+    width: 45%;
+    height: 100vh;
+}
+
+.col-1-2-right {
+    vertical-align: top;
+    width: 55%;
+    height: 100vh;
+}
+
+.inline {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.section-heading {
+    letter-spacing: 2px;
+    margin: 0 2.4vw;
+    width: 13%;
+}
+
+.section-content {
+    width: 68%;
+    margin: 0 2vw;
+}
+
+.section-content-continue {
+    width: 70%;
+    margin: 1vh 2vw;
+}
+
+.summary {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 100px;
+  padding: 8px;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #3B5998;
+  color: #000;
+}
+
+i:hover {
+	transform: rotateY(180deg);
+}
+
+.social {
+    display: inline-block;
+    text-align: center;
+}
+
+.social-space {
+    margin: 0 2vw;
+}
+
+i {
+    color: black;
+}
+
+.no-line-height {
+    line-height: 0px;
+}
+
+.no-line-height p {
+    font: 300 5px/7.5px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 18px;
+}
+
+.i-left {
+    margin-left: 0.5vw;
+}
+
+.fa-laptop:hover {
+  color: blue;
+}
+
+/*iPhone 6*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  .col-1-2-left {
+      vertical-align: top;
+      width: 100%;
+      height: 50vh;
+  }
+
+  .col-1-2-right {
+      vertical-align: top;
+      width: 100%;
+      height: 50vh;
+      margin-left: 2.4vw;
+  }
+
+  .section-heading {
+      letter-spacing: 2px;
+      margin: 0 2.4vw;
+      width: 16%;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5, #beachbody, #ms-heading {
+    font-size: 24px;
+  }
+
+  p, #intro-heading {
+    font-size: 23px;
+  }
+
+  #caption {
+    margin-top: 40px;
+    font-size: 34 px;
+  }
+
+  li {
+    font-size: 22px;
+  }
+
+  .break-top-right {
+      margin-top: 6vh;
+  }
+
+  .ghost-button {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-size: 26px;
+  }
+
+  img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .inline {
+      vertical-align: top;
+      display: inline-block;
+      margin-top: 7px;
+  }
+
+  #fa-icon {
+    font-size: 80px;
+  }
+
+  .responsive-break-left {
+    margin-top: 120px;
+  }
+
+  .responsive-break-right {
+    margin-top: 40px;
+  }
+
+  .break-top-right {
+      margin-top: 0;
+  }
+}
