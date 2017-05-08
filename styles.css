@@ -218,6 +218,10 @@ and (orientation : portrait) {
     font-size: 80px;
   }
 
+  #fa-icon-tools {
+    font-size: 30px;
+  }
+
   .responsive-break-left {
     margin-top: 120px;
   }
