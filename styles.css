@@ -180,7 +180,14 @@ and (orientation : portrait) {
 
   #caption {
     margin-top: 40px;
-    font-size: 34 px;
+    font-size: 34px;
+  }
+
+  .project-heading {
+    margin-top: 40px;
+    font-size: 16rem;
+    margin: 0 auto;
+    text-align: center;
   }
 
   li {
